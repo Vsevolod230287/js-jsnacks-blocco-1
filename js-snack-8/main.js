@@ -4,7 +4,6 @@ do {
   var numero = prompt("Inserisci un numero di 4 cifre: ");
 } while (numero.length != 4);
 
-
 var sum = 0;
 
 for (i = 0; i < numero.length; i++) {
