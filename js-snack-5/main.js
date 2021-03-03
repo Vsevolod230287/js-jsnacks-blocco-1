@@ -6,10 +6,8 @@ var numeri = [];
 for (i = 0; i < 6; i++) {
   var numUtente = prompt("Mi un numero per piacere: ");
   if (numUtente % 2 != 0) {
-    numeri[i] = numUtente;
+    numeri.push(numUtente);
   }
 }
 
-var stringNum = numeri.toString();
-console.log(stringNum);
-  document.getElementById('risultato').innerHTML = "Ecco l'array con tutti i numeri dispari: " + numeri;
+console.log(numeri);
